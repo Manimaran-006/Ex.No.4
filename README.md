@@ -216,15 +216,36 @@ Reverse Prompting	Generates accurate question	Good question generation	Acceptabl
 Graph Prompting	Clear workflow representation	Good flowchart	Simple workflow
 Active Prompting	Multiple solutions with reasoning	Good recommendations	Basic recommendations
 
-# Evaluation Method (Rubric)
-Criteria	Weight	ChatGPT	Gemini	Copilot
-Accuracy	5	5	4	4
-Relevance	5	5	5	4
-Clarity	5	5	4	4
-Completeness	5	5	4	3
-Logical Reasoning	5	5	4	3
-Creativity	5	5	4	4
-Overall Score (30)	30	30	25	22
+# Evaluation Method – Rubrics
+
+## Evaluation Criteria
+
+| Criteria | Excellent (5) | Good (4) | Average (3) |
+|----------|---------------|----------|-------------|
+| Reasoning | Logical and complete | Mostly logical | Basic reasoning |
+| Correctness | Highly accurate | Minor errors | Some inaccuracies |
+| Token Usage | Efficient and concise | Moderate | Slightly verbose |
+
+---
+
+## Rubrics Scores
+
+| AI Tool | Reasoning | Correctness | Token Usage | Total / 15 |
+|----------|-----------|-------------|-------------|------------|
+| ChatGPT | 5 | 5 | 5 | **15** |
+| Google Gemini | 4 | 5 | 4 | **13** |
+| Microsoft Copilot | 4 | 4 | 4 | **12** |
+
+---
+
+# Result Analysis
+
+- **ChatGPT** generated the most logical, accurate, and concise responses across all prompting techniques.
+- **Google Gemini** produced technically correct responses with good reasoning but occasionally used more tokens.
+- **Microsoft Copilot** provided shorter responses suitable for quick understanding but with less detailed reasoning.
+
+---
+
 
 # Result
 The prompts for the advanced prompting techniques—Zero-shot Prompting, Few-shot Prompting, Chain of Thought, Persona Pattern, Reverse Prompting, Graph Prompting, and Active Prompting—were successfully generated for the AI-Based Smart Traffic Management System use case. The responses from ChatGPT, Google Gemini, and Microsoft Copilot were compared using a rubric-based evaluation. Among the three AI tools, ChatGPT produced the most accurate, detailed, and logically structured responses, followed by Google Gemini, while Microsoft Copilot provided satisfactory but comparatively less comprehensive outputs.
